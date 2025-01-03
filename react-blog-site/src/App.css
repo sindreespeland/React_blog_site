@@ -1,0 +1,87 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app-title {
+  width: 100%;
+  text-align: center;
+}
+
+.blog-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 25%;
+}
+
+.post-container {
+  width: 50%;
+  display: flex;
+}
+
+.post-image {
+  display: block;
+  width: 25%;
+  object-fit: contain;
+  padding-right: 10px;
+  margin-bottom: auto;
+}
+
+.post-content {
+  display: block;
+}
+
+.post-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.post-text {
+  white-space: pre-line;
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+.post-delete {
+  margin: 5px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  color: white;
+  background-color: #3F8C7F;
+}
+
+.post-creator {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 6px;
+  margin-left: 8px;
+}
+
+.new-post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30%;
+}
+
+.new-post-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+#file-input {
+  border: none;
+}
